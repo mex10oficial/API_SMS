@@ -8,6 +8,7 @@ Para usar nossa api de SMS basta acessar o LINK: https://mex10.docs.apiary.io/# 
 Basta chamar via HTTP GET a URL abaixo:
 https://mex10.com/api/shortcode.aspx?t=send&u=USUARIO&p=SENHA&n=NUMEROCOMDDD&m=MENSAGEMSMS&i=SEUID(OPCIONAL)
 
-Todos os paramêtros você consegue dentro do nosso painel!
+# Dúvida e contatos
 
+Todos os paramêtros você consegue dentro do nosso painel!
 Para qualquer dúvida por favo contate nosso suporte em https://mex10.com/
