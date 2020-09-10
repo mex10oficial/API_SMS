@@ -8,6 +8,15 @@ Para usar nossa api de SMS basta acessar o LINK: https://mex10.docs.apiary.io/# 
 Basta chamar via HTTP GET a URL abaixo:
 https://mex10.com/api/shortcode.aspx?t=send&u=USUARIO&p=SENHA&n=NUMEROCOMDDD&m=MENSAGEMSMS&i=SEUID(OPCIONAL)
 
+# C#
+
+using System.Net;
+
+using (WebClient client = new WebClient())
+{
+    string htmlCode = client.DownloadString("https://mex10.com/api/shortcode.aspx?t=send&u=USUARIO&p=SENHA&n=NUMEROCOMDDD&m=MENSAGEMSMS&i=SEUID(OPCIONAL)");
+}
+
 # Dúvida e contatos
 
 Todos os paramêtros você consegue dentro do nosso painel!
