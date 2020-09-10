@@ -10,12 +10,14 @@ https://mex10.com/api/shortcode.aspx?t=send&u=USUARIO&p=SENHA&n=NUMEROCOMDDD&m=M
 
 # C#
 
+```
 using System.Net;
 
 using (WebClient client = new WebClient())
 {
     string htmlCode = client.DownloadString("https://mex10.com/api/shortcode.aspx?t=send&u=USUARIO&p=SENHA&n=NUMEROCOMDDD&m=MENSAGEMSMS&i=SEUID(OPCIONAL)");
 }
+```
 
 # Dúvida e contatos
 
