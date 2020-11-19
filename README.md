@@ -29,7 +29,7 @@ using (WebClient client = new WebClient())
 
 ```
 import requests
-ret = requests.get('https://botmex.ninja/api/trend/', timeout=10).json()
+ret = requests.get('https://mex10.com/api/shortcodev2.aspx?token=123456789&t=send&n=11981460808&m=mensagem de teste', timeout=10).json()
 ```
 
 
